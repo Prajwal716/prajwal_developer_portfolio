@@ -328,7 +328,7 @@ section{
 /* ===== Internship grid (two cards centered) ===== */
 
 #internship .projects-box {
-  grid-template-columns: repeat(2, minmax(420px, 600px));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 #internship .project-card{
